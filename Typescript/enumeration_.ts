@@ -6,5 +6,5 @@ enum direction{
     left,
     right
 };
-console.log(direction[2]);
+console.log(direction[3]);
 console.log(typeof(direction));
