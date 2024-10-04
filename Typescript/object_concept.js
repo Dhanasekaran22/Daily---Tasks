@@ -1,3 +1,4 @@
+"use strict";
 // var student : any;
 // student={
 //     fname:"Rahul",
@@ -6,9 +7,15 @@
 // };
 // console.log(student);
 // console.log(student.fname);
-var studentDetails = [
-    { name: "ababc", rollno: "21ucs019", department: "cse" },
-    { name: "ababd", rollno: "21ucs020", department: "cse" }
+Object.defineProperty(exports, "__esModule", { value: true });
+var employeesNone = null;
+var employees = [
+    { age: 26, isMajor: true },
+    { name: "aabbd", age: 28, isMajor: true },
+    { name: undefined, age: 22, isMajor: null },
+    { isMajor: true, age: 33 }
 ];
-console.log(studentDetails[0].gender);
-/*----------------------------------------------------------------------------------------------*/
+var newEmployees = employees;
+console.log(employees[3].name);
+console.log(newEmployees[0]);
+/*----------------------------------------------------------------------------------------------*/ 
