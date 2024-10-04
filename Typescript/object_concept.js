@@ -1,12 +1,12 @@
 "use strict";
-// var student : any;
-// student={
-//     fname:"Rahul",
-//     lname:"M",
-//     age:21
-// };
-// console.log(student);
-// console.log(student.fname);
+var student;
+student={
+    fname:"Rahul",
+    lname:"M",
+    age:21
+};
+console.log(student);
+console.log(student.fname);
 Object.defineProperty(exports, "__esModule", { value: true });
 var employeesNone = null;
 var employees = [
