@@ -1,12 +1,17 @@
-var person1 = {
-    name: "Rahul",
-    age: 18
+// var person1={
+//     name:"Rahul",
+//     age:18
+// }
+// const printPerson1=(person)=>{
+//     console.log(person);
+// }
+// printPerson1(person1.name);
+// const printperson2=()=>{
+//     console.log("Vijay");
+// }
+// printperson2();
+//-------------------------------------------------------------------------
+var add = function (a, b) {
+    return a + b;
 };
-var printPerson1 = function (person) {
-    console.log(person);
-};
-printPerson1(person1.name);
-var printperson2 = function () {
-    console.log("Vijay");
-};
-printperson2();
+console.log(add(10, 11));
