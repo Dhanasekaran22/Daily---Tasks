@@ -7,4 +7,4 @@ enum direction{
     right
 };
 console.log(direction[3]);
-console.log(typeof(direction));
+console.log(typeof(direction)); 

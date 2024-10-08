@@ -27,4 +27,4 @@ console.log(`the product ${product.name} costs $${product.price}`);
 let na;
 na='albd1234';
 console.log(typeof(na));
-
+ 

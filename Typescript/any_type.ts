@@ -4,4 +4,4 @@ console.log(typeof(result));
 function message(name:String):void{
     console.log(name);
 }
-message("Rahul");
+message("Rahul"); 

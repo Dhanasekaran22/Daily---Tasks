@@ -18,4 +18,4 @@ for(let i=0;i<circles.length;i++){
     area=Math.floor(Math.PI *circles[i]*circles[i]);
     areas.push(area);
 }
-console.log(areas);
+console.log(areas); 

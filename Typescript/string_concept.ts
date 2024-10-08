@@ -4,4 +4,4 @@ console.log(description);
 
 const statuss:boolean=true;
 const review:boolean=!statuss;
-console.log(statuss);
+console.log(statuss); 

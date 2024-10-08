@@ -16,3 +16,4 @@ for (var i = 0; i < circles.length; i++) {
     areas.push(area);
 }
 console.log(areas);
+ 

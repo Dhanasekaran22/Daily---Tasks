@@ -4,7 +4,7 @@ students[1]="Ajith";
 students[2]="Kamal";
 students.push("Rajini");
 students.pop();
-console.log(students);
+console.log(students); 
 
 let numb:any[]=[1,3,5,7];
 let double=numb.map(e=>e*2);

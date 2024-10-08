@@ -5,4 +5,4 @@ console.log(a);
 var body, heading;
 body = [255, 0, 0];
 heading = [0, 0, 255, 0];
-console.log(body, heading);
+console.log(body, heading); 

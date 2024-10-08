@@ -18,4 +18,4 @@ var product = getProduct(1);
 console.log("the product ".concat(product.name, " costs $").concat(product.price));
 var na;
 na = 'albd1234';
-console.log(typeof (na));
+console.log(typeof (na)); 

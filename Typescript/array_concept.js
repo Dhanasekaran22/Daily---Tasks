@@ -4,7 +4,7 @@ students[1] = "Ajith";
 students[2] = "Kamal";
 students.push("Rajini");
 students.pop();
-console.log(students);
+console.log(students); 
 var numb = [1, 3, 5, 7];
 var double = numb.map(function (e) { return e * 2; });
 console.log(double);

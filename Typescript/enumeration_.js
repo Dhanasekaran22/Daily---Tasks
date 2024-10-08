@@ -9,7 +9,7 @@ var Direction;
 ;
 console.log(Direction[2]);
 console.log(typeof (Direction));
-var Months;
+var Months; 
 (function (Months) {
     Months[Months["january"] = 0] = "january";
     Months[Months["february"] = 1] = "february";
