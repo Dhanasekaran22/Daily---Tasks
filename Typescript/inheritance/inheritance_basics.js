@@ -17,7 +17,6 @@ var Product = /** @class */ (function () {
     function Product(name, price) {
         this._productName = name;
         this._price = price;
-        console.log("constructor Called");
     }
     Product.prototype.displayDetails = function () {
         return "Product: ".concat(this._productName, " Price: ").concat(this._price, " ");
@@ -53,16 +52,14 @@ var Clothing = /** @class */ (function (_super) {
     };
     return Clothing;
 }(Product));
-// const products:Product[]=[
-//     new Electronics("laptop",29999,"HP","8GB"),
-//     new Clothing("Shirt",450,"L","Cotton")
-// ];
-// console.log("---------Product Information---------");
-// products.forEach(productDetails=>{
-//     console.log(productDetails.displayDetails());
-// })
-// const laptop=products[0];
-// console.log(laptop.applyDiscount(1000));
-// console.log("------End of Product Information------");
-var products = new Electronics("laptop", 7787, "xp", "8GB");
-console.log(products);
+var products = [
+    new Electronics("laptop", 29999, "HP", "8GB"),
+    new Clothing("Shirt", 450, "L", "Cotton")
+];
+console.log("---------Product Information---------");
+products.forEach(function (productDetails) {
+    console.log(productDetails.displayDetails());
+});
+var laptop = products[0];
+console.log(laptop.applyDiscount(1000));
+console.log("------End of Product Information------");

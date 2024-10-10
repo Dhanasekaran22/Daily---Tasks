@@ -7,7 +7,6 @@ class Product{
 
         this._productName=name;
         this._price=price;
-        console.log("constructor Called");
     }
     
     displayDetails():string{
