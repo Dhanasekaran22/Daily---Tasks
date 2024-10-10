@@ -7,6 +7,7 @@ class Product{
 
         this._productName=name;
         this._price=price;
+        console.log("constructor Called");
     }
     
     displayDetails():string{
@@ -63,3 +64,5 @@ const laptop=products[0];
 console.log(laptop.applyDiscount(1000));
 console.log("------End of Product Information------");
 
+ 
+ 
