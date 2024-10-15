@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var shapes_1 = require("./shapes");
+var circleRadius = 5;
+var rectangleLength = 10;
+var rectangleWidth = 4;
+var circleArea = (0, shapes_1.areaOfCircle)(circleRadius);
+console.log("Area of the circle : ".concat(circleArea));
+var rectangleArea = (0, shapes_1.areaOfRectangle)(rectangleLength, rectangleWidth);
+console.log("Area of Rectangle : ".concat(rectangleArea));

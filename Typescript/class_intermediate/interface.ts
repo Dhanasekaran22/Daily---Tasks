@@ -1,5 +1,5 @@
 interface Employee{                         //type Employee={               
-    readonly name:String;
+    readonly name?:String;
     userId:number;
     getSalary(salary:number):number;
 }
@@ -22,7 +22,7 @@ type Manager_=Employee & Manager;
 class Fresher implements Employee{
     name:string;
     userId=398;
-
+    
     getSalary(salary): number {
         return salary;
     }
