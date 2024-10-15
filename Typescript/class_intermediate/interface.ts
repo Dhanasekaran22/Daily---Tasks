@@ -8,6 +8,7 @@ interface Manager extends Employee{
     experience:number;
 }
 
+
 /*  (or)
 
  interface Manager{
@@ -19,16 +20,21 @@ type Manager_=Employee & Manager;
 */
 
 class Fresher implements Employee{
-    name="Fresher";
+    name:string;
     userId=398;
 
     getSalary(salary): number {
         return salary;
     }
+    
 }
 
-class ManagerDetails implements Manager{   //class ManagerDetails implements Manager_{
+class ManagerDetails implements ManagerDetails{   //class ManagerDetails implements Manager_{
    
+    constructor(names:string) {
+    this.name=names;
+   }
+
     name="Manager";                         // we can also assign the value to the readonly name 
     userId=400;                             // because we can assign the value once in a separate class
 
@@ -45,10 +51,10 @@ class ManagerDetails implements Manager{   //class ManagerDetails implements Man
 }
 
 const fresher=new Fresher();
-const manager =new ManagerDetails();
+const manager =new ManagerDetails("Rahul");
 console.log("------Fresher Details------");
 
-console.log("Name: ",fresher.name);
+console.log("Name: ",fresher.name="Fresher");
 console.log("User ID: " ,fresher.userId);
 console.log("Salary: ",fresher.getSalary(20000));
 
