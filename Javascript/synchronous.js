@@ -14,4 +14,4 @@ const longTask=()=>{
 
 console.log("Task 1: Start");
 longTask();
-console.log("Task 2 : En");
+console.log("Task 2 : End");
