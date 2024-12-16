@@ -1,4 +1,4 @@
-var a = [1, 2, 3, 4];
+var a = [1, 2, 3, 3, 4];
 a.forEach(function (n) {
     console.log(n);
 });

@@ -9,7 +9,7 @@ class Students{
 
     // set age(value){         // if we try to assign the value of the readonly property it shows error
     //     this._age=value;    // we can only assign the value twice of the readonly property 
-    // }                       // And also we can acces the readonly property outside the class also 
+    // }                       // And also we can access the readonly property outside the class also 
 
     get age(){
         return this._age;

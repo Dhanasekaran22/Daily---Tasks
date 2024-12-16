@@ -1,7 +1,7 @@
 /*
 const toArray=(x:any,y:any,z:any)=>{
     return [x,y,z];                         //this is not the best practice so we go for generics
-}                                           // we can reuse the code in generics in abest way compare to any  
+}                                           // we can reuse the code in generics in a best way compare to any  
                                             // any is also a reusable code
 const numberArray=toArray(5,10,15);
 console.log(numberArray);

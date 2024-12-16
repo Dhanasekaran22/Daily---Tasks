@@ -11,9 +11,9 @@ names.forEach(function (name, nam) {
 var circles = [20, 30, 40];
 var areas = [];
 var area = 0;
-for (var i = 0; i < circles.length; i++) {
-    area = Math.floor(Math.PI * circles[i] * circles[i]);
+for (var _i = 0, circles_1 = circles; _i < circles_1.length; _i++) {
+    var element = circles_1[_i];
+    area = Math.floor(Math.PI * element * element);
     areas.push(area);
 }
 console.log(areas);
- 

@@ -29,4 +29,8 @@ class Employee{
 
 const employee=new Employee("Rahul",20)
 employee.printName();
- console.log(employee.age);
+console.log(employee.age);
+
+//modifying the data using setter
+employee.age=22;
+console.log("By using the Setter -",employee.age)

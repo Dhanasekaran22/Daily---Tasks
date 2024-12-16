@@ -21,8 +21,8 @@ console.log(arithmeticOperation.addString("Ra","hul"));
 // generic constraints
 
 class ConstraintForAdd{
-    addNumbers=<T extends number>(x:T,y:T)=>{  // if we didnt use the extend keyword it shows error
-        return x+y;                            // in type we didnt perform the + operator without the constraint
+    addNumbers=<T extends number>(x:T,y:T)=>{  // if we didn't use the extend keyword it shows error
+        return x+y;                            // in type we didn't perform the + operator without the constraint
     }
 }
 

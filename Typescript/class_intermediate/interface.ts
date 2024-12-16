@@ -29,7 +29,7 @@ class Fresher implements Employee{
     
 }
 
-class ManagerDetails implements ManagerDetails{   //class ManagerDetails implements Manager_{
+class ManagerDetails implements Manager{   //class ManagerDetails implements Manager_{
    
     constructor(names:string) {
     this.name=names;

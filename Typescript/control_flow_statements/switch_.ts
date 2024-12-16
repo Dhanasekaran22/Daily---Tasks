@@ -2,16 +2,16 @@ enum Months{
     january, february, March, April, May, June, July
 }
 function isSummer(parameter:Months):boolean{
-    let itisSummer:boolean;
+    let itIsSummer:boolean;
     switch(parameter){
         case(Months.June):
         case(Months.July):
-            itisSummer=true;
+            itIsSummer=true;
             break;
         default:
-            itisSummer=false;
+            itIsSummer=false;
             break;
     }
-    return itisSummer;
+    return itIsSummer;
     }
 console.log(isSummer(Months.June));

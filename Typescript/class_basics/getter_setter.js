@@ -1,6 +1,6 @@
 var StudentDetails = /** @class */ (function () {
     function StudentDetails() {
-        this.originalName = "rahul M";
+        this.originalName = "Dhanasekaran M";
     }
     Object.defineProperty(StudentDetails.prototype, "studentName", {
         get: function () {
@@ -16,5 +16,7 @@ var StudentDetails = /** @class */ (function () {
     return StudentDetails;
 }());
 var studentDetails = new StudentDetails();
+console.log(studentDetails.studentName);
+//by changing the value , using setter
 studentDetails.studentName = "Rahul";
 console.log(studentDetails.studentName);

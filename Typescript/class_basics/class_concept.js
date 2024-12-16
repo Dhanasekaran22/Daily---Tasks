@@ -6,6 +6,7 @@ var Employee = /** @class */ (function () {
     }
     Object.defineProperty(Employee.prototype, "age", {
         get: function () {
+            // return _age;         // we can't directly use the variable name. In class we must use the this keyword  
             return this._age;
         },
         set: function (value) {
@@ -21,4 +22,7 @@ var Employee = /** @class */ (function () {
 }());
 var employee = new Employee("Rahul", 20);
 employee.printName();
-// console.log(employee.age);
+console.log(employee.age);
+//modifying the data using setter
+employee.age = 22;
+console.log("By using the Setter -", employee.age);

@@ -1,3 +1,4 @@
+// Array params
 var printArray = function (element) {
     console.log(element.join(","));
 };

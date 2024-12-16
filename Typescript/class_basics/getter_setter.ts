@@ -1,5 +1,5 @@
 class StudentDetails{
-   originalName="rahul M";
+   originalName="Dhanasekaran M";
     name: any;
 
     set studentName(name){
@@ -15,6 +15,8 @@ class StudentDetails{
 }
 
 const studentDetails=new StudentDetails();
-studentDetails.studentName="Rahul";
+console.log(studentDetails.studentName)
 
+//by changing the value , using setter
+studentDetails.studentName="Rahul M";
 console.log(studentDetails.studentName)

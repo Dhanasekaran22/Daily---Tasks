@@ -16,7 +16,7 @@ console.log(arithmeticOperation.addString("Ra", "hul"));
 var ConstraintForAdd = /** @class */ (function () {
     function ConstraintForAdd() {
         this.addNumbers = function (x, y) {
-            return x + y;
+            return x + y; // in type we didn't perform the + operator without the constraint
         };
     }
     return ConstraintForAdd;

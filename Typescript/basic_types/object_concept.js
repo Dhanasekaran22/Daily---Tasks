@@ -1,21 +1,24 @@
-"use strict";
 var student;
-student={
-    fname:"Rahul",
-    lname:"M",
-    age:21
+student = {
+    fname: "Rahul",
+    lname: "M",
+    age: 21
 };
 console.log(student);
 console.log(student.fname);
-Object.defineProperty(exports, "__esModule", { value: true });
-var employeesNone = null;
-var employees = [
-    { age: 26, isMajor: true },
-    { name: "aabbd", age: 28, isMajor: true },
-    { name: undefined, age: 22, isMajor: null },
-    { isMajor: true, age: 33 }
+// /*----------------------------------------------------------------------------------------------*/
+var classroom = ["class-1:60", "class-2:62", ""];
+console.log(typeof (classroom)); //in JS array is an object
+console.log(classroom.length);
+// /*----------------------------------------------------------------------------------------------*/
+var employeDetails = [
+    { name: "aaa", age: 22, userId: 2622 },
+    { name: "aab", age: 22, userId: 2621 }
 ];
-var newEmployees = employees;
-console.log(employees[3].name);
-console.log(newEmployees[0]);
-/*----------------------------------------------------------------------------------------------*/ 
+console.log(employeDetails[1].name);
+var studentDetails = [
+    { name: "ababc", rollno: "21ucs019", department: "cse" },
+    { name: "ababd", rollno: "21ucs020", department: "cse" }
+];
+console.log(studentDetails[0].name);
+/*----------------------------------------------------------------------------------------------*/

@@ -5,4 +5,3 @@ function message(name) {
     console.log(name);
 }
 message("Rahul");
- 

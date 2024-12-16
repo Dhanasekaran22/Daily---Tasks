@@ -7,6 +7,16 @@ var Students = /** @class */ (function () {
         this._age = value;
         console.log(this._name, this._age);
     }
+    Object.defineProperty(Students.prototype, "age", {
+        get: function () {
+            return this._age;
+        },
+        set: function (value) {
+            this._age = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return Students;
 }());
 var students = new Students("Rahul", 20);

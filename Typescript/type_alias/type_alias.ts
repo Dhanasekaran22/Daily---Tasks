@@ -5,7 +5,7 @@ type Personal={
 
 type Contact={
     email:string,
-    phone:Number
+    phone:number
 };
 
 // type Canditates =Personal&Contact;  this is also valid
