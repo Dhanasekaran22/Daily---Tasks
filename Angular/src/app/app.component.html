@@ -1,0 +1,44 @@
+<app-data-binding></app-data-binding>
+<app-directives></app-directives>
+<app-pipes></app-pipes>
+
+
+<!--This is Parent while using Input Decorator-->
+<!-- <app-form-sharing></app-form-sharing>  -->
+
+
+
+<!--This is Parent while using Output Decorator-->
+          
+<app-list-sharing></app-list-sharing>
+<!-- <app-form-sharing></app-form-sharing>   -->
+
+
+<!--ngOnChanges()-->
+
+<br>
+
+<h2 >Life Cycle Hooks</h2><br>
+<h2 style="color: gold;">Example of ngOnChanges() and ngInit() </h2><br>
+
+<h3>App Component</h3>
+
+<label for="message">Message: </label>
+<input type="text" [(ngModel)]="message">
+
+<br>
+
+<app-life-cycle-hooks [msgFromApp]="message" ></app-life-cycle-hooks>
+<br><br>
+
+<!--ngOnDestroy-->
+<input type="checkbox" [(ngModel)]="isDisabled"> Disable Child Component 
+<br>
+
+<!--ngOnDoCheck-->                                                                     <!--see the console in the " previous item " was null -->
+<h2 style="color:gold;">Example of NgDoCheck and ngOnDestroy()</h2><br>
+<button (click)="addItem()">Add Items</button>
+<app-ng-do-check *ngIf="!isDisabled" [childItems]="items"></app-ng-do-check>
+
+
+<app-template-driven-form></app-template-driven-form>
